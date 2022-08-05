@@ -1,0 +1,165 @@
+.DateInput_input, .DateInput_input_1 {
+    Height: 34px;
+    Width: 100%;
+}
+
+/*C BUTTON COLOUR*/
+.btn-compare {
+    color: #fff;
+    background-color: #4E79A7;
+    border-color: #42668d;
+}
+
+.btn-compare:hover, .btn-compare:focus, .btn-compare:active, .btn-compare.active, .open>.dropdown-toggle.btn-compare {
+    color: #fff;
+    background-color: #42668d;
+    border-color: #42668d; /*set the color you want here*/
+}
+
+.btn-outline-compare {
+    color: #4E79A7;
+    border-color: #4E79A7;
+}
+
+.btn-compare:not(:disabled):not(.disabled):active, .btn-compare:not(:disabled):not(.disabled).active, .show>.btn-compare.dropdown-toggle {
+    color: #fff;
+    background-color: #6d93bb;
+    border-color: #1d2d3f;
+}
+
+.btn-compare.disabled, .btn-compare:disabled {
+    color: #fff;
+    background-color: #4E79A7;
+    border-color: #42668d;
+}
+
+/*ANALYSE BUTTON COLOUR*/
+.btn-analyse {
+    color: #212529;
+    background-color: #F28E2B;
+    border-color: #e87b0e;
+}
+
+.btn-analyse:hover, .btn-analyse:focus, .btn-analyse:active, .btn-analyse.active, .open>.dropdown-toggle.btn-analyse {
+    color: #fff;
+    background-color: #e87b0e;
+    border-color: #e87b0e; 
+}
+
+.btn-outline-analyse {
+    color: #F28E2B;
+    border-color: #F28E2B;
+}
+
+.btn-analyse:not(:disabled):not(.disabled):active, .btn-analyse:not(:disabled):not(.disabled).active, .show>.btn-analyse.dropdown-toggle {
+    color: #212529;
+    background-color: #f5a85b;
+    border-color: #7c4208;
+}
+
+.btn-analyse.disabled, .btn-analyse:disabled {
+    color: #212529;
+    background-color: #F28E2B;
+    border-color: #e87b0e;
+}
+
+/*dropdowns*/
+
+.attributes-dropdown .Select--multi .Select-value {
+    background-color: #ffe8d1; /*#ffe8d1*/
+    border-color: #f5a85b;
+    color: #7c4208;
+}
+
+.is-focused:not(.is-open) > .Select-control {
+    border-color: #f5a85b;
+    box-shadow: 0 0 0 3px #f5a85b33;
+}
+
+.Select--multi .Select-value-icon {
+    border-right: 1px solid #f5a85b;
+}
+
+.VirtualizedSelectFocusedOption {
+    background-color: #ffe8d1;
+    color: #212529;
+}
+
+.Select.is-focused:not(.is-open) > .select-control {
+    border-color: #f5a85b;
+}
+
+.Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value a.Select-value-label:focus {
+    color: #f5a85b;
+}
+
+.Select--multi .Select-value {
+    color: #f5a85b;
+}
+
+/*sliders*/
+
+.rc-slider-track {
+    background-color: #ffe8d1;
+}
+
+.rc-slider-dot-active {
+    border-color: #f5a85b;
+}
+
+.rc-slider-handle {
+    border: solid 2px #f5a85b;
+}
+
+.rc-slider-handle:hover {
+    border-color: #F28E2B;
+}
+  
+.rc-slider-handle-active, .rc-slider-handle:active, .rc-slider-handle-active:active {
+    border-color: #f5a85b;
+    box-shadow: 0 0 5px #f5a85b;
+}
+
+.rc-slider-handle-click-focused, .rc-slider-handle-click-focused:focus {
+    border-color: #F28E2B;
+}
+
+/*Calendar date select*/
+
+.CalendarDay__selected, .CalendarDay__selected:active, .CalendarDay__selected:hover {
+    background: #ffe8d1;
+    border: 1px double #ffe8d1;
+    color: #7c4208;
+}
+
+.DayPickerKeyboardShortcuts_show__bottomRight::before {
+    border-right: 33px solid #f5a85b;
+}
+
+.DayPickerKeyboardShortcuts_show__bottomRight:hover::before {
+    border-right: 33px solid #F28E2B;
+}
+
+.PresetDateRangePicker_button__selected {
+    background: #F28E2B;
+}
+
+.PresetDateRangePicker_button {
+
+    border: 2px solid #F28E2B;
+    color: #F28E2B;
+}
+
+.DateInput_input__focused {
+    border-bottom: 2px solid #F28E2B;
+}
+
+.nav-link {
+    color: #4E79A7;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+  
